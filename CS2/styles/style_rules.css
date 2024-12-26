@@ -1,0 +1,172 @@
+@font-face {
+    font-family: eng;
+    src: url(../assets/fonts/speed-speed-700.otf);
+}
+@font-face {
+    font-family:rus;
+    src: url(../assets/fonts/cs_regular.ttf);
+}
+
+body{
+    max-width: 720px;
+     background-image: url(../assets/images/rules.png);
+   overflow-x: hidden;
+   margin: 0;
+   padding: 0;
+   }
+   .logo{
+    display: flex;
+    position: absolute;
+    left: 6vw;
+   top: -0.5vh;
+}
+.log_in{
+    display: flex;
+    position: absolute;
+    left:57vw;
+    top:-0.1vh;
+   
+}
+.linenav{
+    display: flex;
+    position: absolute;
+    left: -0.5vw;
+    top: 9vh;
+}
+.zag{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 11vh;
+    left: 6vw;
+}
+.rule{
+    display: flex;
+    position: absolute;
+    top: 19vh;
+    left: 6vw;
+}
+.textz{
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    font-family: eng;
+    top: 9vh;
+    left: 20vw;
+}
+.text{
+    display: flex;
+    position: absolute;
+    z-index: 3;
+   font-size: 90%;
+  font-family: rus;
+   top: 18vh;
+   left: 6vw;
+   width: 87%;
+   height: 100%;
+}
+
+
+.social{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 162vh;
+    left: 21vw;  
+    z-index: 2; 
+}
+.footer{
+    display: flex;
+    position: absolute;
+    left: -0.5vw;
+z-index: 1;  
+    top: 126vh;   
+}
+.logo2{
+    display: flex;
+    position: absolute;
+    left: 6vw;
+   top: 127vh;
+   z-index: 2;
+}
+.linf1{
+    display: flex;
+    position: absolute;
+    left: -0.5vw;
+   top: 137vh;
+   z-index: 2;
+}
+.linf2{
+    display: flex;
+    position: absolute;  
+    left: 35vw;
+   top: 156vh;
+   z-index: 2;
+}
+.linf3{
+    display: flex;
+    position: absolute; 
+    left: 35vw;
+   top: 146vh;
+   z-index: 2;
+}
+.linf4{
+    display: flex;
+    position: absolute; 
+    left: -0.5vw;
+   top: 172vh;
+   z-index: 2;
+}
+.name1{
+    display: flex;
+    position: absolute;
+    font-family: eng;
+    color: aliceblue;
+    top: 125vh;
+    left: 50vw;
+    z-index: 4;
+}
+.name2{
+    display: flex;
+    position: absolute;   
+    font-family: eng;
+    color: aliceblue;
+    top: 138vh;
+    left: 29vw;
+    z-index: 4;
+}
+.name3{
+    display: flex;
+    position: absolute;  
+    font-family: eng;
+    color: aliceblue;
+    top: 146vh;
+    left: 39vw;
+    z-index: 4;
+}
+.name4{
+    display: flex;
+    position: absolute;
+    font-family: eng;
+    color: aliceblue;  
+    top: 154vh;
+    left: 29vw;
+    z-index: 4;
+}
+.name5{
+    display: flex;
+    position: absolute; 
+    font-family: eng;
+    color: aliceblue;
+    top: 171vh;
+    left: 5vw;
+    z-index: 4;
+    font-size: 80%;
+    margin: 0;
+    height: 1%;
+    p{
+        height: 1%;
+    }
+}

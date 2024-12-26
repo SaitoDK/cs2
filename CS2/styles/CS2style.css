@@ -1,0 +1,572 @@
+
+*{margin: 0;padding: 0;}
+@font-face {
+font-family: eng;
+src: url(../assets/fonts/speed-speed-700.otf);
+}
+@font-face {
+font-family: rus;
+src: url(../assets/fonts/cs_regular.ttf);
+}
+header{
+display: flex;
+position: absolute;
+left: 3%;
+margin: 0%;
+}
+
+body{
+
+background-image: url(../assets/images/fon.png); 
+background-repeat: no-repeat;
+background-size: cover;
+overflow-x: hidden;
+z-index: 1;
+}
+
+.logo{
+display: flex;
+position: relative;
+
+justify-content: space-around;
+}
+.log_in{
+    display: flex;
+    position: relative;
+    left: 6vw;
+    
+    
+}
+a{
+    min-width: 116px;
+    min-height: 46px;
+}
+.line_nav{
+    display: flex;
+    position: relative;
+    left: 6vw;
+    margin-bottom: 2%;
+    left: -0.5vw;
+    min-width: 320px;
+  border-top: 3px solid #ffffff
+}
+
+.prizi{
+    
+    display: grid;
+
+    grid-template-columns: 43vw 1vw;
+    grid-template-rows: 30vw 30vw;
+    position: absolute;
+    top: 20vh;
+    left: 9vw;
+    z-index: 2;
+   width: 80%;
+}
+.z1{
+    display: flex;
+    position: relative;
+    left: 6vw;
+    margin-bottom: 2%;
+    min-width: 280px;
+    max-width: 800px;
+}
+.container1{
+
+    display: flex;
+    position: relative;
+    left: 6vw;
+    margin-bottom: 2%;
+    margin-right: 0;
+}
+.t1{
+    display: flex;
+    position: absolute;
+    left: 6vw; 
+    font-family: rus;
+    top: 11vh;
+    font-size: larger;
+z-index: 3;
+
+
+}
+
+.z2{
+    display: flex; 
+    position: relative;
+    left: 6vw;
+    margin-bottom: 2%;
+}
+.container2{
+    display: flex;
+    position: relative;
+    left: 6vw;
+    margin-bottom: 2%;
+}
+.t2{
+    display: flex;
+    position: absolute;
+    font-family: rus;
+    display: flex;
+    top: 54vh;
+    left: 20vw; 
+    font-size: x-large;
+    z-index: 3;
+    
+    
+}
+.button2{
+    display: flex;
+    position: absolute;
+    left: 55vw;
+    top: 64vh 
+}
+
+.z3{
+    display: flex; 
+    position: relative; 
+    left: 6vw;
+    margin-bottom: 2%;
+}
+.container3{
+    display: flex;
+    position: relative;
+    left: 6vw;
+    margin-bottom: 2%;
+}
+.t3{
+    display: flex;
+    position:absolute;
+    font-family: rus;
+    top: 80vh;
+    left: 13vw; 
+    font-size: x-large;
+    z-index: 3;
+
+}
+.button3{
+    display: flex;
+    position: absolute;
+    left: 6vw; 
+    left: 55vw; 
+    top: 90vh;
+   
+}
+
+.z4{
+    display: flex;
+    position: relative;
+    left: 6vw;
+    margin-bottom: 2%;
+}
+.container4{
+    display: flex;
+    position: relative;
+    left: 6vw;
+    margin-bottom: 2%;
+}
+.t4{
+    display: flex;
+    position: absolute;
+    font-family: rus;
+    top: 106vh;
+    left: 8vw; 
+    font-size: larger;
+    z-index: 3;
+
+}
+.button4{
+    display: flex;
+    position: absolute; 
+    top: 116vh;
+    left: 55vw;
+    z-index: 4;
+
+}
+
+.z5{
+    display: flex;
+    position: relative;
+    left: 6vw;
+    margin-bottom: 2%;
+}
+.container5{
+    display: flex;
+    position: relative;
+    left: 6vw;
+    margin-bottom: 2%;
+}
+.t5{
+    display: flex;
+    position: absolute;
+    font-family: rus; 
+    top: 131.5vh;
+    left: 12vw; 
+    font-size: larger;
+    z-index: 3;
+
+
+}
+.button5{
+    display: flex;
+    position: absolute; 
+    left: 55vw;
+    top: 144vh;
+    z-index: 4;
+}
+
+.media{
+    display: flex;
+    position: relative;
+    left: 33vw;
+    top: 294;
+    z-index: 3;
+    min-width: 30px;
+    min-height: 30px;
+}
+.logo2{
+    display: flex;
+    position: relative;
+    left: 3vw;
+    top: 9vh;
+    z-index: 3;
+}
+.footer{
+    display: flex;
+    position: relative;
+    
+}
+.ft1{
+    display: flex;
+    position: absolute;
+    font-family: eng;
+    color: aliceblue;
+    top: 172vh;
+    left: 50vw;
+    z-index: 3;
+}
+.ft2{
+    display: flex;
+    position: absolute;   
+    font-family: eng;
+    color: aliceblue;
+    top: 196vh;
+    left: 29vw;
+    z-index: 3;
+}
+.ft3{
+    display: flex;
+    position: absolute;  
+    font-family: eng;
+    color: aliceblue;
+    top: 190vh;
+    left: 39vw;
+    z-index: 3;
+}
+.ft4{
+    display: flex;
+    position: absolute;
+    font-family: eng;
+    color: aliceblue;  
+    top: 201vh;
+    left: 29vw;
+    z-index: 3;
+}
+.ft5{
+    display: flex;
+    position: absolute; 
+    font-family: eng;
+    color: aliceblue;
+    top: 217vh;
+    left: 5vw;
+    z-index: 3;
+    font-size: 80%;
+    margin: 0;
+}
+
+@media screen and (min-width: 768px){
+    .logo{
+        width: 220px;
+        height: 80px;
+        justify-content: space-around;
+    
+    }
+    .log_in{
+       
+    }
+    .line_nav{
+        
+    }
+    
+    .prizi{
+        
+        
+    }
+    .z1{
+        width: 800px;
+    height: 60px;
+    left: 14vw;
+
+    }
+    .container1{
+        width: 800px;
+    height: 400px;
+    left: 14vw;
+    }
+    .t1{
+        
+font-size: xx-large;
+top: 20vh;
+left: 21vw;
+    
+    }
+    
+    .z2{
+        width: 800px;
+        height: 60px;
+        left: 14vw;
+      
+    }
+    .container2{
+        width: 400px;
+    height: 208px;
+    left: 14vw;
+
+    }
+    .t2{
+        font-size: xx-large;
+top: 106vh;
+left: 36vw;
+        
+        
+    }
+    .button2{
+        
+        top: 132vh;
+        left: 65vw;
+        
+    }
+    
+    .z3{
+        width: 800px;
+    height: 60px;
+    left: 14vw;
+
+    }
+    .container3{
+        width: 400px;
+    height: 208px;
+    left: 14vw;
+
+    }
+    .t3{
+        font-size: xx-large;
+        top: 160vh;
+        left: 30vw; 
+    
+    }
+    .button3{
+        top: 186vh;
+        left: 65vw;
+       
+    }
+    
+    .z4{
+        width: 800px;
+        height: 60px;
+        left: 14vw;
+     
+    }
+    .container4{
+        width: 400px;
+    height: 208px;
+    left: 14vw;
+
+    }
+    .t4{
+        
+        font-size: xx-large;
+        top: 212vh;
+        left: 22vw;
+    }
+    .button4{
+        
+    top: 240vh;
+    left: 65vw;
+    }
+    
+    .z5{
+        width: 800px;
+    height: 60px;
+    left: 14vw;
+
+    }
+    .container5{
+        width: 400px;
+    height: 208px;
+    left: 14vw;
+
+    }
+    .t5{
+        
+        font-size: xx-large;
+        top: 265vh;
+        left: 24vw;
+    
+    }
+    .button5{
+       top: 290vh; 
+       left: 65vw;
+    }
+    
+    .media{
+    width: 400px;
+    height: 200px;
+    
+    }
+    .logo2{
+        width: 250px;
+        height: 200px;
+        
+    }
+    .footer{
+        width: 1000px;
+        height: 700px;
+    
+        
+    }
+    .ft1{
+        font-size: xx-large;
+        top: 360vh;
+        left: 60vw;
+    }
+    .ft2{
+        font-size: xx-large;  
+    }
+    .ft3{
+        font-size: xx-large;
+    }
+    .ft4{
+        font-size: xx-large;
+        top: 420vh;
+    }
+    .ft5{
+        font-size: xx-large;
+        top: 500vh;
+    }
+    }
+
+@media screen and (min-width:1024){
+
+    .logo{
+
+}
+.log_in{
+   
+}
+.line_nav{
+    
+}
+
+.prizi{
+    
+    
+}
+.z1{
+    
+}
+.container1{
+    
+}
+.t1{
+    
+
+
+}
+
+.z2{
+    
+}
+.container2{
+    
+}
+.t2{
+    
+    
+    
+}
+.button2{
+    
+}
+
+.z3{
+    
+}
+.container3{
+    
+}
+.t3{
+    
+
+}
+.button3{
+    
+   
+}
+
+.z4{
+    
+}
+.container4{
+    
+}
+.t4{
+    
+
+}
+.button4{
+    
+
+}
+
+.z5{
+    
+}
+.container5{
+    
+}
+.t5{
+    
+
+
+}
+.button5{
+    
+}
+
+.media{
+    
+}
+.logo2{
+    
+}
+.footer{
+
+    
+}
+.ft1{
+    
+}
+.ft2{
+    
+}
+.ft3{
+    
+}
+.ft4{
+    
+}
+.ft5{
+    
+}
+}
